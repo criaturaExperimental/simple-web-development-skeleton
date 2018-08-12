@@ -1,1 +1,1 @@
-alert('Hey you!');
+console.log('welcome to webpack hot loader');
