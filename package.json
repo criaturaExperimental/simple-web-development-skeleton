@@ -4,13 +4,20 @@
   "description": "For a quick simple web development",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "keywords": ["development", "javascript", "boilerplate", "webpack"],
+  "keywords": [
+    "development",
+    "javascript",
+    "boilerplate",
+    "webpack"
+  ],
   "author": "Lucas deGomez",
   "license": "MPL-2.0",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
