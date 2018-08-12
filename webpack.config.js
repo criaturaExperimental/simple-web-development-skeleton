@@ -8,7 +8,21 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',
+    port: 4000,
+    watchContentBase: true,
+    open: true,
     hot: true
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
+    ]
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
