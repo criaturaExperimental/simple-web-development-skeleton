@@ -1,7 +1,10 @@
 # Changelog
 
-## [1.0.0]
-Basic webpack configuration released
+## [1.2.0]
+Adds Babel transpilation
 
 ## [1.1.0]
-Adds css loading support
+Adds CSS loading support
+
+## [1.0.0]
+Basic webpack configuration released

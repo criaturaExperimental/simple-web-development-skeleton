@@ -16,6 +16,9 @@
   "author": "Lucas deGomez",
   "license": "MPL-2.0",
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
     "css-loader": "^1.0.0",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
