@@ -8,4 +8,4 @@ Just run
 
     npm install && npm start
 
-and start developing in [/src/index.js](/src/index.js)
+and start developing in [/src/app.js](/src/app.js)
