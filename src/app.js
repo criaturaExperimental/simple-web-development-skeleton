@@ -1,3 +1,5 @@
 import './style.css';
 
-console.log('welcome to webpack hot loader');
+(() => {
+  document.querySelector('h1').innerHTML = 'Hello webpack'
+})()
