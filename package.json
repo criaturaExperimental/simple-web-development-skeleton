@@ -1,12 +1,12 @@
 {
   "name": "simple-web-development-skeleton",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "For a quick simple web development",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "keywords": [
     "development",
